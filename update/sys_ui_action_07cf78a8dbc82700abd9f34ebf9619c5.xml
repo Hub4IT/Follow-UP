@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Download Template</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var apptUtils = new x_61163_follow_u.GetAttachment();
+var outFile = apptUtils.getTemplateID(current.doc_title);
+
+action.setRedirectURL ('/sys_attachment.do?sys_id=' + outFile) ;]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>b.degbe</sys_created_by>
+        <sys_created_on>2018-08-17 12:40:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07cf78a8dbc82700abd9f34ebf9619c5</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Download Template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
+        <sys_update_name>sys_ui_action_07cf78a8dbc82700abd9f34ebf9619c5</sys_update_name>
+        <sys_updated_by>b.degbe</sys_updated_by>
+        <sys_updated_on>2018-08-20 07:21:44</sys_updated_on>
+        <table>x_61163_follow_u_project_doc</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

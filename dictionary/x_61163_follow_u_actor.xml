@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Actor" max_length="40" name="x_61163_follow_u_actor" type="collection">
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Project" max_length="32" name="project" reference="x_61163_follow_u_project_info" type="reference"/>
+        <element choice="1" label="Role" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Project Leader" value="2"/>
+                <element inactive_on_update="false" label="Project Manager" value="1"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="name"/>
+        </index>
+        <index name="index2">
+            <element name="project"/>
+        </index>
+    </element>
+</database>

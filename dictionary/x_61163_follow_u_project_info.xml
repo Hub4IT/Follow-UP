@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Project Info" max_length="40" name="x_61163_follow_u_project_info" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="1" label="GXP Risk Classification" max_length="40" name="gxp_risk_classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Major" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Minor" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="None GxP" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element default="javascript:incidentGetCaller()" dynamic_default_value="0d39d9105f220100a9ad2572f2b47796" label="Initiator" max_length="32" name="initiator" reference="sys_user" type="reference" use_dependent_field="true" use_dynamic_default="true"/>
+        <element label="IS Project Leader" max_length="32" name="is_project_leader" reference="sys_user" type="reference"/>
+        <element choice="1" label="New technology uncontrolled" max_length="40" name="new_technology_uncontrolled" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
+        <element label="Project Name" mandatory="true" max_length="100" name="project_name" type="string"/>
+        <element label="Project Technical Coordinator " max_length="32" name="project_technical_coordinator" reference="sys_user" type="reference"/>
+        <element label="SoX" max_length="40" name="sox" type="boolean"/>
+        <element choice="1" default="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Initiation" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Requirements" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Definition" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Design" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Build" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Acceptance" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Release and Deploy" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Small Project" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Deployment Project" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Standard Project" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Agile Project" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="External Hosted Solution" sequence="5" value="4"/>
+            </choice>
+        </element>
+        <element label="User Project Leader " max_length="32" name="user_project_leader" reference="sys_user" type="reference"/>
+        <element label="Worknotes" max_length="4000" name="worknotes" type="journal_input"/>
+        <index name="index">
+            <element name="project_technical_coordinator"/>
+        </index>
+        <index name="index2">
+            <element name="initiator"/>
+        </index>
+        <index name="index3">
+            <element name="project_manager"/>
+        </index>
+        <index name="index4">
+            <element name="user_project_leader"/>
+        </index>
+        <index name="index5">
+            <element name="is_project_leader"/>
+        </index>
+    </element>
+</database>

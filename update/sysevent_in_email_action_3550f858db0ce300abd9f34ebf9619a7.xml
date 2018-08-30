@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Create Projet Follow Up</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[	// Implement email action here
+current.project_name = email.subject;
+current.status = email.body.status; 
+current.type = email.body.type; 
+if (email.body.project_manager != undefined)
+  current.project_manager = email.body.project_manager;
+if (email.body.project_technical_coordinator != undefined)
+  current.project_technical_coordinator = email.body.project_technical_coordinator;
+if (email.body.user_project_leader != undefined)
+  current.user_project_leader = email.body.user_project_leader;
+if (email.body.is_project_leader != undefined)
+  current.is_project_leader = email.body.is_project_leader;
+
+current.insert();
+
+]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>m.ndoye@humans4help.sn</sys_created_by>
+        <sys_created_on>2018-08-16 16:52:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3550f858db0ce300abd9f34ebf9619a7</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Create Projet Follow Up</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
+        <sys_update_name>sysevent_in_email_action_3550f858db0ce300abd9f34ebf9619a7</sys_update_name>
+        <sys_updated_by>m.ndoye@humans4help.sn</sys_updated_by>
+        <sys_updated_on>2018-08-16 18:55:02</sys_updated_on>
+        <table>x_61163_follow_u_project_info</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

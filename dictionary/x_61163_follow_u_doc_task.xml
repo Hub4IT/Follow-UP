@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Doc Task" max_length="40" name="x_61163_follow_u_doc_task" type="collection">
+        <element label="Document" mandatory="true" max_length="32" name="document" reference="x_61163_follow_u_project_doc" type="reference"/>
+        <element choice="1" choice_field="phase" choice_table="x_61163_follow_u_project_doc" label="Phase" max_length="40" name="phase" reference="x_61163_follow_u_project_doc" type="choice">
+            <choice/>
+        </element>
+        <element label="Project" max_length="32" name="project" read_only="true" reference="x_61163_follow_u_project_info" type="reference"/>
+    </element>
+</database>

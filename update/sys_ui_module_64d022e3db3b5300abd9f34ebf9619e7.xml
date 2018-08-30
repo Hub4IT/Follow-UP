@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Follow - Up">a0d02263db3b5300abd9f34ebf96191a</application>
+        <filter/>
+        <name>Project Infos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_61163_follow_u.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>b.degbe</sys_created_by>
+        <sys_created_on>2018-08-14 17:01:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64d022e3db3b5300abd9f34ebf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Infos</sys_name>
+        <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
+        <sys_update_name>sys_ui_module_64d022e3db3b5300abd9f34ebf9619e7</sys_update_name>
+        <sys_updated_by>b.degbe</sys_updated_by>
+        <sys_updated_on>2018-08-14 17:01:50</sys_updated_on>
+        <table>x_61163_follow_u_project_info</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

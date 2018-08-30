@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Rating Data Lookup" max_length="40" name="x_61163_follow_u_rating_data_lookup" type="collection">
+        <element choice="1" choice_field="rating_fin" choice_table="x_61163_follow_u_project_info" label="Rating" max_length="40" name="rating_fin" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="risk_impact_fin" choice_table="x_61163_follow_u_project_info" label="Risk impact" max_length="40" name="risk_impact_fin" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="risk_probability_fin" choice_table="x_61163_follow_u_project_info" label="Risk Probability" max_length="40" name="risk_probability_fin" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

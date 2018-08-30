@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Follow UP - Documment Informations</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_61163_follow_u.follow.up.doc</name>
+        <read_roles/>
+        <suffix>follow.up.doc</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-16 13:32:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ca730058db48e300abd9f34ebf961961</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_61163_follow_u.follow.up.doc</sys_name>
+        <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
+        <sys_update_name>sys_properties_ca730058db48e300abd9f34ebf961961</sys_update_name>
+        <sys_updated_by>b.degbe</sys_updated_by>
+        <sys_updated_on>2018-08-16 19:21:16</sys_updated_on>
+        <type>string</type>
+        <value>System Criticality Assessment | true;&#13;
+User Requirements | true;&#13;
+Vendor Audit Report | true;&#13;
+Project Plan | true;&#13;
+Validation Plan | true;&#13;
+Functional Specifications | true;&#13;
+Detailed Specifications | true;&#13;
+Architecture Specifications | true;&#13;
+IQ Design | true;&#13;
+IQ Design | true;&#13;
+Test Strategy | true;&#13;
+Functional and Technical Risk Assessment | true;&#13;
+System Retirement Plan | true;&#13;
+Data Migration Plan | true;&#13;
+Service Support Form | true;&#13;
+Unit Tests | true;&#13;
+Code Review | true;&#13;
+Architecture Specifications | true;&#13;
+Installation Procedures | true;&#13;
+IQ Report (test env.) | true;&#13;
+System Integration Test Design | true;&#13;
+System Integration Test Cases | true;&#13;
+System Integration Test Report | true;&#13;
+User Acceptance Test Design | true;&#13;
+User Acceptance Test Cases | true;&#13;
+Training Plan | true;&#13;
+User Guides | true;&#13;
+Traceability Matrix | true;&#13;
+User Acceptance Test Report | true;&#13;
+Conformity Certificate (executed) | true;&#13;
+Service Level Agreement (SLA) | true;&#13;
+Operating Level Agreement (OLA) | true;&#13;
+Application Operations Manual | true;&#13;
+Infrastructure Operation Manual | true;&#13;
+IQ Forms (executed) | true;&#13;
+System Integration Test Report | true;&#13;
+IQ Report (prod env.) | true;&#13;
+Authorization For Use (executed) | true;</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca730058db48e300abd9f34ebf961961"/>
+</record_update>

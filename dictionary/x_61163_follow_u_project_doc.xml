@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Project Doc" max_length="40" name="x_61163_follow_u_project_doc" type="collection">
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="glide_list"/>
+        <element label="Owner" max_length="32" name="author" reference="sys_user" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Contributors" max_length="4000" name="contributors" reference="sys_user" type="glide_list"/>
+        <element label="Delivery date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element label="Doc ID" max_length="40" name="doc_id" type="string"/>
+        <element label="Doc title" max_length="100" name="doc_title" type="string"/>
+        <element choice="1" label="Phase" max_length="100" name="phase" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="01 - Initiation" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="02 - Requirements Definition" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="03 - Design" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="04 - Build" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="05 - Acceptance" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="06 - Release and Deploy" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element label="Project" max_length="32" name="project" reference="x_61163_follow_u_project_info" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="4"/>
+                <element inactive_on_update="false" label="Draft" value="1"/>
+                <element inactive_on_update="false" label="In Approval" value="3"/>
+                <element inactive_on_update="false" label="In Review" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="author"/>
+        </index>
+        <index name="index3">
+            <element name="project"/>
+        </index>
+    </element>
+</database>
