@@ -2,7 +2,7 @@
     <element label="Actor" max_length="40" name="x_61163_follow_u_actor" type="collection">
         <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="Project" max_length="32" name="project" reference="x_61163_follow_u_project_info" type="reference"/>
-        <element choice="1" label="Role" max_length="40" name="role" type="choice">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Role" max_length="40" name="role" reference="x_61163_follow_u_roles" type="reference">
             <choice>
                 <element inactive_on_update="false" label="Integration Project Leader" value="2"/>
                 <element inactive_on_update="false" label="Project Manager" value="1"/>

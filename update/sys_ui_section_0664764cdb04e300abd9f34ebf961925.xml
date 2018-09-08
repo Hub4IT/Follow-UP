@@ -4,13 +4,13 @@
             <element>12M.x_61163_follow_u_project_info.x_61163_follow_u_actor.project</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-16 07:44:31</sys_created_on>
-            <sys_id>d874f64cdb04e300abd9f34ebf961952</sys_id>
+            <sys_created_on>2018-09-06 08:47:08</sys_created_on>
+            <sys_id>522c8772db54eb00abd9f34ebf961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Actors" display_value="Actors" name="x_61163_follow_u_project_info" sys_domain="global" view="Default view">0664764cdb04e300abd9f34ebf961925</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-16 07:44:31</sys_updated_on>
+            <sys_updated_on>2018-09-06 08:47:08</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>

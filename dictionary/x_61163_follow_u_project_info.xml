@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" label="Project Info" max_length="40" name="x_61163_follow_u_project_info" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element choice="1" label="GXP Risk Classification" max_length="40" name="gxp_risk_classification" type="choice">
+        <element label="Forecast end date" max_length="40" name="forecast_end_date" type="glide_date"/>
+        <element label="Forecast start date " max_length="40" name="forecast_start_date" type="glide_date"/>
+        <element choice="1" choice_field="security" choice_table="x_61163_follow_u_project_info" label="GDPR" max_length="40" name="gdpr" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="GXP" max_length="40" name="gxp_risk_classification" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Critical" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="Major" sequence="2" value="2"/>
@@ -9,16 +14,42 @@
                 <element inactive_on_update="false" label="None GxP" sequence="4" value="4"/>
             </choice>
         </element>
+        <element choice="1" choice_field="security" label="ICM" max_length="40" name="icm" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="2"/>
+            </choice>
+        </element>
         <element default="javascript:incidentGetCaller()" dynamic_default_value="0d39d9105f220100a9ad2572f2b47796" label="Initiator" max_length="32" name="initiator" reference="sys_user" type="reference" use_dependent_field="true" use_dynamic_default="true"/>
+        <element label="Internal Order PPM" max_length="200" name="internal_order_ppm" type="string"/>
         <element label="IS Project Leader" max_length="32" name="is_project_leader" reference="sys_user" type="reference"/>
         <element choice="1" label="New technology uncontrolled" max_length="40" name="new_technology_uncontrolled" type="choice">
             <choice/>
         </element>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element choice="1" label="Phase Projet" max_length="40" name="phase_projet" type="choice">
+            <choice/>
+        </element>
         <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
         <element label="Project Name" mandatory="true" max_length="100" name="project_name" type="string"/>
         <element label="Project Technical Coordinator " max_length="32" name="project_technical_coordinator" reference="sys_user" type="reference"/>
-        <element label="SoX" max_length="40" name="sox" type="boolean"/>
+        <element label="Real end date" max_length="40" name="real_end_date" type="glide_date"/>
+        <element label="Real start date" max_length="40" name="real_start_date" type="glide_date"/>
+        <element choice="1" label="Security" max_length="40" name="security" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" value="3"/>
+                <element inactive_on_update="false" label="Major" value="1"/>
+                <element inactive_on_update="false" label="Minor" value="0"/>
+            </choice>
+        </element>
+        <element label="Solution Center" max_length="32" name="solution_center" reference="x_61163_follow_u_solution_center" type="reference"/>
+        <element choice="1" label="SoX" max_length="40" name="sox" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
+            </choice>
+        </element>
         <element choice="1" default="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Initiation" sequence="1" value="1"/>
@@ -48,12 +79,15 @@
             <element name="initiator"/>
         </index>
         <index name="index3">
-            <element name="project_manager"/>
+            <element name="solution_center"/>
         </index>
         <index name="index4">
-            <element name="user_project_leader"/>
+            <element name="project_manager"/>
         </index>
         <index name="index5">
+            <element name="user_project_leader"/>
+        </index>
+        <index name="index6">
             <element name="is_project_leader"/>
         </index>
     </element>

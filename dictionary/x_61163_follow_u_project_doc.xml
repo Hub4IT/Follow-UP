@@ -6,7 +6,7 @@
         <element label="Contributors" max_length="4000" name="contributors" reference="sys_user" type="glide_list"/>
         <element label="Delivery date" max_length="40" name="delivery_date" type="glide_date"/>
         <element label="Doc ID" max_length="40" name="doc_id" type="string"/>
-        <element label="Doc title" max_length="100" name="doc_title" type="string"/>
+        <element display="true" label="Doc title" max_length="100" name="doc_title" type="string"/>
         <element choice="1" label="Phase" max_length="100" name="phase" type="choice">
             <choice>
                 <element inactive_on_update="false" label="01 - Initiation" sequence="1" value="1"/>

@@ -4,13 +4,13 @@
             <element>worknotes</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-14 23:32:33</sys_created_on>
-            <sys_id>804af363db7f5300abd9f34ebf96195a</sys_id>
+            <sys_created_on>2018-08-31 09:29:52</sys_created_on>
+            <sys_id>316cd0c5dbd82700abd9f34ebf961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_61163_follow_u_project_info" sys_domain="global" view="Default view">e0393363db7f5300abd9f34ebf96199a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-14 23:32:33</sys_updated_on>
+            <sys_updated_on>2018-08-31 09:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>activity.xml</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-14 23:32:33</sys_created_on>
-            <sys_id>044af363db7f5300abd9f34ebf96195a</sys_id>
+            <sys_created_on>2018-08-31 09:29:52</sys_created_on>
+            <sys_id>b56cd0c5dbd82700abd9f34ebf961976</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_61163_follow_u_project_info" sys_domain="global" view="Default view">e0393363db7f5300abd9f34ebf96199a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-14 23:32:33</sys_updated_on>
+            <sys_updated_on>2018-08-31 09:29:52</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
