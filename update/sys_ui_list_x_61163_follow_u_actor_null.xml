@@ -2,48 +2,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_61163_follow_u_actor" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>name</element>
-            <list_id display_value="x_61163_follow_u_actor" element="NULL" name="x_61163_follow_u_actor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18d2364cdb04e300abd9f34ebf9619e8</list_id>
+            <element>role</element>
+            <list_id display_value="x_61163_follow_u_actor" element="NULL" name="x_61163_follow_u_actor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f7e58bdfdb2c6300abd9f34ebf961963</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-16 07:37:26</sys_created_on>
-            <sys_id>d0d2364cdb04e300abd9f34ebf9619e9</sys_id>
+            <sys_created_by>b.degbe</sys_created_by>
+            <sys_created_on>2018-09-20 07:52:35</sys_created_on>
+            <sys_id>bfe58bdfdb2c6300abd9f34ebf961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-16 07:37:26</sys_updated_on>
+            <sys_updated_by>b.degbe</sys_updated_by>
+            <sys_updated_on>2018-09-20 07:52:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>project</element>
-            <list_id display_value="x_61163_follow_u_actor" element="NULL" name="x_61163_follow_u_actor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18d2364cdb04e300abd9f34ebf9619e8</list_id>
+            <element>name</element>
+            <list_id display_value="x_61163_follow_u_actor" element="NULL" name="x_61163_follow_u_actor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f7e58bdfdb2c6300abd9f34ebf961963</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-16 07:37:26</sys_created_on>
-            <sys_id>58d2364cdb04e300abd9f34ebf9619e9</sys_id>
+            <sys_created_by>b.degbe</sys_created_by>
+            <sys_created_on>2018-09-20 07:52:35</sys_created_on>
+            <sys_id>33e58bdfdb2c6300abd9f34ebf961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-16 07:37:26</sys_updated_on>
+            <sys_updated_by>b.degbe</sys_updated_by>
+            <sys_updated_on>2018-09-20 07:52:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>role</element>
-            <list_id display_value="x_61163_follow_u_actor" element="NULL" name="x_61163_follow_u_actor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18d2364cdb04e300abd9f34ebf9619e8</list_id>
+            <element>project</element>
+            <list_id display_value="x_61163_follow_u_actor" element="NULL" name="x_61163_follow_u_actor" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f7e58bdfdb2c6300abd9f34ebf961963</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-16 07:37:26</sys_created_on>
-            <sys_id>d8d2364cdb04e300abd9f34ebf9619e9</sys_id>
+            <sys_created_by>b.degbe</sys_created_by>
+            <sys_created_on>2018-09-20 07:52:35</sys_created_on>
+            <sys_id>b3e58bdfdb2c6300abd9f34ebf961964</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-16 07:37:26</sys_updated_on>
+            <sys_updated_by>b.degbe</sys_updated_by>
+            <sys_updated_on>2018-09-20 07:52:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -56,12 +56,12 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-16 07:37:26</sys_created_on>
+            <sys_created_by>b.degbe</sys_created_by>
+            <sys_created_on>2018-09-20 07:52:35</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>18d2364cdb04e300abd9f34ebf9619e8</sys_id>
+            <sys_id>f7e58bdfdb2c6300abd9f34ebf961963</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_61163_follow_u_actor</sys_name>
             <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
@@ -69,8 +69,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
             <sys_update_name>sys_ui_list_x_61163_follow_u_actor_null</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-16 07:37:26</sys_updated_on>
+            <sys_updated_by>b.degbe</sys_updated_by>
+            <sys_updated_on>2018-09-20 07:52:35</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -30,7 +30,7 @@
         <element choice="1" label="Phase Projet" max_length="40" name="phase_projet" type="choice">
             <choice/>
         </element>
-        <element label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
+        <element label="Project Manager" mandatory="true" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
         <element label="Project Name" mandatory="true" max_length="100" name="project_name" type="string"/>
         <element label="Project Technical Coordinator " max_length="32" name="project_technical_coordinator" reference="sys_user" type="reference"/>
         <element label="Real end date" max_length="40" name="real_end_date" type="glide_date"/>
@@ -50,7 +50,7 @@
                 <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
             </choice>
         </element>
-        <element choice="1" default="1" label="Status" max_length="40" name="status" type="choice">
+        <element choice="1" default="1" label="Phase" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Initiation" sequence="1" value="1"/>
                 <element inactive_on_update="false" label="Requirements" sequence="2" value="2"/>

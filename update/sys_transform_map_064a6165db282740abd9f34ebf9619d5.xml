@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>iN Follow UP</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_61163_follow_u_follow_up_docs</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>b.degbe</sys_created_by>
+        <sys_created_on>2018-09-14 14:43:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>064a6165db282740abd9f34ebf9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>iN Follow UP</sys_name>
+        <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
+        <sys_update_name>sys_transform_map_064a6165db282740abd9f34ebf9619d5</sys_update_name>
+        <sys_updated_by>b.degbe</sys_updated_by>
+        <sys_updated_on>2018-09-14 14:43:11</sys_updated_on>
+        <target_table>x_61163_follow_u_doc_template</target_table>
+    </sys_transform_map>
+</record_update>

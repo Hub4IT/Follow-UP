@@ -12,7 +12,7 @@
         <sys_created_on>2018-08-16 13:32:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ca730058db48e300abd9f34ebf961961</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>x_61163_follow_u.follow.up.doc</sys_name>
         <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
         <sys_policy/>
@@ -20,46 +20,66 @@
         <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
         <sys_update_name>sys_properties_ca730058db48e300abd9f34ebf961961</sys_update_name>
         <sys_updated_by>b.degbe</sys_updated_by>
-        <sys_updated_on>2018-08-16 19:21:16</sys_updated_on>
+        <sys_updated_on>2018-09-14 18:30:30</sys_updated_on>
         <type>string</type>
-        <value>System Criticality Assessment | true;&#13;
-User Requirements | true;&#13;
-Vendor Audit Report | true;&#13;
-Project Plan | true;&#13;
-Validation Plan | true;&#13;
-Functional Specifications | true;&#13;
-Detailed Specifications | true;&#13;
-Architecture Specifications | true;&#13;
-IQ Design | true;&#13;
-IQ Design | true;&#13;
-Test Strategy | true;&#13;
-Functional and Technical Risk Assessment | true;&#13;
-System Retirement Plan | true;&#13;
-Data Migration Plan | true;&#13;
-Service Support Form | true;&#13;
-Unit Tests | true;&#13;
-Code Review | true;&#13;
-Architecture Specifications | true;&#13;
-Installation Procedures | true;&#13;
-IQ Report (test env.) | true;&#13;
-System Integration Test Design | true;&#13;
-System Integration Test Cases | true;&#13;
-System Integration Test Report | true;&#13;
-User Acceptance Test Design | true;&#13;
-User Acceptance Test Cases | true;&#13;
-Training Plan | true;&#13;
-User Guides | true;&#13;
-Traceability Matrix | true;&#13;
-User Acceptance Test Report | true;&#13;
-Conformity Certificate (executed) | true;&#13;
-Service Level Agreement (SLA) | true;&#13;
-Operating Level Agreement (OLA) | true;&#13;
-Application Operations Manual | true;&#13;
-Infrastructure Operation Manual | true;&#13;
-IQ Forms (executed) | true;&#13;
-System Integration Test Report | true;&#13;
-IQ Report (prod env.) | true;&#13;
-Authorization For Use (executed) | true;</value>
+        <value>Project Plan | 01 - Initiation | true;&#13;
+Steering Committee Minutes | 01 - Initiation | true;&#13;
+System Criticality Assessment | 01 - Initiation | true;&#13;
+Project Plan | 02 - Requirements Definition | true;&#13;
+Steering Committee Minutes | 02 - Requirements Definition | true;&#13;
+User Requirements | 02 - Requirements Definition | true;&#13;
+Validation Plan | 02 - Requirements Definition | true;&#13;
+Vendor Audit Report | 02 - Requirements Definition | true;&#13;
+Architecture Specifications | 03 - Design | true;&#13;
+Data Migration Plan | 03 - Design | true;&#13;
+Detailed Specifications | 03 - Design | true;&#13;
+Functional Risk Assessment | 03 - Design | true;&#13;
+Functional Specifications | 03 - Design | true;&#13;
+Installation Procedures | 03 - Design | true;&#13;
+IQ Design | 03 - Design | true;&#13;
+IQ Forms | 03 - Design | true;&#13;
+IQ Forms (Executed) | 03 - Design | true;&#13;
+Operation Level Agreement | 03 - Design | true;&#13;
+Service Level Agreement | 03 - Design | true;&#13;
+Service Support Form | 03 - Design | true;&#13;
+System Retirement Plan | 03 - Design | true;&#13;
+Technical Recovery Plan | 03 - Design | true;&#13;
+Test Strategy | 03 - Design | true;&#13;
+Traceability Matrix | 03 - Design | true;&#13;
+Application Operations manual | 04 - Build | true;&#13;
+Code Review | 04 - Build | true;&#13;
+Infrastructure Operations Manual | 04 - Build | true;&#13;
+Installation Procedures | 04 - Build | true;&#13;
+IQ Forms (Executed) | 04 - Build | true;&#13;
+IQ Report | 04 - Build | true;&#13;
+System Integration Test Cases | 04 - Build | true;&#13;
+System Integration Test Cases (Executed) | 04 - Build | true;&#13;
+System Integration Test Design | 04 - Build | true;&#13;
+System Integration Test Report | 04 - Build | true;&#13;
+Training Plan | 04 - Build | true;&#13;
+UAT Design | 04 - Build | true;&#13;
+UAT Test Cases | 04 - Build | true;&#13;
+Unit Tests | 04 - Build | true;&#13;
+User Guides | 04 - Build | true;&#13;
+User Process Monitoring | 04 - Build | true;&#13;
+Application Operations manual | 05 - Acceptance | true;&#13;
+Authorization For Use | 05 - Acceptance | true;&#13;
+Conformity Certificate | 05 - Acceptance | true;&#13;
+Data Migration Report | 05 - Acceptance | true;&#13;
+Infrastructure Operations Manual | 05 - Acceptance | true;&#13;
+IQ Forms (Executed) | 05 - Acceptance | true;&#13;
+IQ Report | 05 - Acceptance | true;&#13;
+Operation Level Agreement | 05 - Acceptance | true;&#13;
+Service Level Agreement | 05 - Acceptance | true;&#13;
+Service Support Form | 05 - Acceptance | true;&#13;
+Steering Committee Minutes | 05 - Acceptance | true;&#13;
+Technical Recovery Plan | 05 - Acceptance | true;&#13;
+Traceability Matrix | 05 - Acceptance | true;&#13;
+UAT Report | 05 - Acceptance | true;&#13;
+UAT Test Cases (Executed) | 05 - Acceptance | true;&#13;
+System Retirement Plan (Executed) | 06 - Release and Deploy | true;&#13;
+User Process Monitoring (Executed) | 06 - Release and Deploy | true;&#13;
+Validation Report | 06 - Release and Deploy | true</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=ca730058db48e300abd9f34ebf961961"/>
