@@ -21,7 +21,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column/>
+        <column>sys_created_on</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="Mamadou BA(admin)">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -69,7 +69,7 @@
         <report_drilldown/>
         <report_source/>
         <roles/>
-        <row/>
+        <row>sys_created_on</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -90,7 +90,7 @@
         <show_zero>false</show_zero>
         <source_type>table</source_type>
         <start_time/>
-        <sumfield/>
+        <sumfield>author...</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-24 23:06:44</sys_created_on>
@@ -98,15 +98,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>173453badb846300abd9f34ebf961977</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Document Status on My Project</sys_name>
         <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
         <sys_update_name>sys_report_173453badb846300abd9f34ebf961977</sys_update_name>
-        <sys_updated_by>h.demombynes</sys_updated_by>
-        <sys_updated_on>2018-09-06 09:51:27</sys_updated_on>
+        <sys_updated_by>b.degbe</sys_updated_by>
+        <sys_updated_on>2018-10-02 08:47:00</sys_updated_on>
         <table>x_61163_follow_u_project_doc</table>
         <title>Document Status on My Project</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
@@ -118,13 +118,13 @@
         <use_color_heatmap>false</use_color_heatmap>
         <use_color_palette>false</use_color_palette>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>6816f79cc0a8016401c5a33be04be441</user>
+        <user>group</user>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
         <x_axis_grid_dotted>false</x_axis_grid_dotted>
         <x_axis_grid_width>1</x_axis_grid_width>
         <x_axis_label_bold>false</x_axis_label_bold>
-        <x_axis_label_color/>
+        <x_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_label_color>
         <x_axis_label_size>11</x_axis_label_size>
         <x_axis_opposite>false</x_axis_opposite>
         <x_axis_title/>
@@ -137,7 +137,7 @@
         <y_axis_grid_dotted>false</y_axis_grid_dotted>
         <y_axis_grid_width>1</y_axis_grid_width>
         <y_axis_label_bold>false</y_axis_label_bold>
-        <y_axis_label_color/>
+        <y_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_label_color>
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_opposite>false</y_axis_opposite>
         <y_axis_title/>

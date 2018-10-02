@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="Project Quality Follow UP - Project User" name="Project Quality Follow UP - Project User">19b4ae86dbb4eb00abd9f34ebf961939</group_id>
+        <report_id display_value="My Doc Task">3de69133db082300abd9f34ebf961922</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>b.degbe</sys_created_by>
+        <sys_created_on>2018-10-02 08:49:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2306855bdb74ef00abd9f34ebf9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3de69133db082300abd9f34ebf961922</sys_name>
+        <sys_package display_value="Follow - Up" source="x_61163_follow_u">aba7caabdbb75300abd9f34ebf9619f0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Follow - Up">aba7caabdbb75300abd9f34ebf9619f0</sys_scope>
+        <sys_update_name>sys_report_users_groups_2306855bdb74ef00abd9f34ebf9619c5</sys_update_name>
+        <sys_updated_by>b.degbe</sys_updated_by>
+        <sys_updated_on>2018-10-02 08:49:34</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>
